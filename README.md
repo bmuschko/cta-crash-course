@@ -14,8 +14,8 @@ All [exercises](./exercises) are numbered and live in dedicated directories star
 
 ## Additional Resources
 
-* 📚 [HashiCorp Terraform Certified Associate Preparation Guide](https://leanpub.com/terraform-certified/)
-* 📚 [HashiCorp Infrastructure Automation Certification Guide](https://www.amazon.com/HashiCorp-Infrastructure-Automation-Certification-Guide/dp/1800565976)
+* 📚 [LeanPub: HashiCorp Terraform Certified Associate Preparation Guide](https://leanpub.com/terraform-certified/)
+* 📚 [Packt: HashiCorp Infrastructure Automation Certification Guide](https://www.amazon.com/HashiCorp-Infrastructure-Automation-Certification-Guide/dp/1800565976)
 * 🎞️ [YouTube: HashiCorp Terraform Associate Certification Course - Pass the Exam!](https://www.youtube.com/watch?v=V4waklkBC38)
 * 🎞️ [A Cloud Guru: HashiCorp Certified Terraform Associate](https://acloudguru.com/course/hashicorp-certified-terraform-associate)
 * 🧪 [Udemy: HashiCorp Certified: Terraform Associate Practice Exam 2022](https://www.udemy.com/course/terraform-associate-practice-exam)
