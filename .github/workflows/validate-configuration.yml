@@ -1,0 +1,16 @@
+name: Validate Configuration
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: Validate Configuration
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Test with Checkov
+        id: checkov
+        uses: bridgecrewio/checkov-action@master
+        with:
+          directory: exercises
+          framework: terraform
