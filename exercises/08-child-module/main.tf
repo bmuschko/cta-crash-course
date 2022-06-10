@@ -11,17 +11,10 @@ provider "aws" {
   region = "us-west-2"
 }
 
-variable "instance_count" {
-    type = number
-    description = "The numer of EC2 instances to be managed."
-    default = 3
-}
-
 resource "aws_instance" "app_server" {
-  count = var.instance_count
   ami           = "ami-077ee47512dc6f3ca"
   instance_type = "t2.nano"
   tags = {
-    Name = "instance ${count.index}"
+    Name = "App Server"
   }
 }
