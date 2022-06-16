@@ -1,4 +1,4 @@
-# Exercise 3
+# Exercise 4
 
 In this exercise, you will replace some hard-coded values in a Terraform configuration file with input variables. Then you will provide values for the variables from the command line.
 

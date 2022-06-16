@@ -1,4 +1,4 @@
-# Exercise 5
+# Exercise 6
 
 In this exercise, you will define an output value for the public ID address of an EC2 instance.
 

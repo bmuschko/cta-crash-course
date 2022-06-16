@@ -1,4 +1,4 @@
-# Exercise 6
+# Exercise 7
 
 In this exercise, you will define an input variable used for defining a loop using the count syntax.
 
