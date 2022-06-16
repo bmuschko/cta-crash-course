@@ -1,4 +1,4 @@
-# Exercise 9
+# Exercise 10
 
 In this exercise, you extract existing configuration into a local module while following best practices. The root module will then consume the child module.
 
