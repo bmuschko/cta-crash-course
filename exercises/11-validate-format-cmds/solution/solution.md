@@ -2,7 +2,7 @@
 
 The `main.tf` configuration file directly defines AWS credentials in plain-text. Those variable values would be stored in the state file and therefore this configuration is not safe. You should remove the value assignment. You should use environment variables or a AWS credentials file instead. Remove the following lines from the configuration file.
 
-```
+```terraform
 access_key = "abc"
 secret_key = "def"
 ```
@@ -40,7 +40,7 @@ $ terraform validate
 
 Fix the first error message by moving the opening curly brace of the AWS provider to the same line as the defintion. The resulting code will look as follows.
 
-```
+```terraform
 provider "aws" {
       region = "us-west-2"
 }
@@ -48,7 +48,7 @@ provider "aws" {
 
 The next error message indicates the attribute named `value` has not been defined in the output value in the file `outputs.tf`. Change the code from `val` to `value`.
 
-```
+```terraform
 output "app_server_public_ip" {
   value = aws_instance.app_server.public_ip
   description = "The public IP address of the EC2 server instance."
@@ -71,7 +71,7 @@ $ terraform validate
 
 This can be fixed by referencing the input variable named `ami_id` properly. Use `var.ami_id` instead of `var_ami_id`.
 
-```
+```terraform
 resource "aws_instance" "app_server" {
   ami = var.ami_id
   instance_type = var.instance_type
@@ -96,7 +96,7 @@ $ terraform validate
 
 Fix this by removing the square brackets.
 
-```
+```terraform
 resource "aws_instance" "app_server" {
   ami = var.ami_id
   instance_type = var.instance_type

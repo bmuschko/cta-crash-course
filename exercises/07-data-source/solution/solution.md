@@ -8,7 +8,7 @@ $ touch main.tf
 
 Define the data source. Assign the URL and the request header.
 
-```
+```terraform
 data "http" "weather" {
   url = "https://api.weather.gov/points/39.73,-104.99"
 
@@ -20,7 +20,7 @@ data "http" "weather" {
 
 Define an output value that consumes the response body provided by the data source. You can navigate the JSON structure by path. Make sure the decode the JSON content using the `jsondecode` function.
 
-```
+```terraform
 output "city" {
   value = jsondecode(data.http.weather.response_body).properties.relativeLocation.properties.city
 }

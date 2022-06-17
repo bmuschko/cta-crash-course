@@ -1,3 +1,5 @@
+# Solution
+
 Create the file named `locals.tf`.
 
 ```
@@ -6,7 +8,7 @@ $ touch locals.tf
 
 Define the local values.
 
-```
+```terraform
 locals {
   timeouts {
     create = "60m"
@@ -17,7 +19,7 @@ locals {
 
 Consume the local values in the resource definition in the file `main.tf`.
 
-```
+```terraform
 resource "aws_db_instance" "default" {
   allocated_storage    = 10
   engine               = "mysql"

@@ -6,7 +6,7 @@ $ touch variables.tf
 
 Define the variable for the EC2 instance type.
 
-```
+```terraform
 variable "instance_type" {
     type = string
     description = "The instance type to use for the EC2 instance."
@@ -17,7 +17,7 @@ variable "instance_type" {
 
 Define the variable for providing a specific AMI identifier.
 
-```
+```terraform
 variable "ami_id" {
     type = string
     description = "The AMI identifier to use for EC2 instance."
@@ -28,7 +28,7 @@ variable "ami_id" {
 
 The `tags` variable expects key-value pairs. Therefore, the data type needs to be a `map`.
 
-```
+```terraform
 variable "tags" {
     type = map(string)
     description = "The tags assigned to the EC2 instance."
@@ -37,7 +37,7 @@ variable "tags" {
 
 Consume the variables in the resource definition in the file `main.tf`.
 
-```
+```terraform
 resource "aws_instance" "app_server" {
   ami           = var.ami_id
   instance_type = var.instance_type
@@ -63,7 +63,7 @@ $ terraform plan -var='tags={"Environment": "Test", "Service": "Example"}'
 
 To automatically consume variables from a file, store them in `terraform.tfvars`.
 
-```
+```terraform
 tags = [
   "Environment": "Test",  
   "Service": "Example"

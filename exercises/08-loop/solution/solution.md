@@ -2,7 +2,7 @@
 
 Start by defining the input variable named `instance_count`.
 
-```
+```terraform
 variable "instance_count" {
     type = number
     description = "The numer of EC2 instances to be managed."
@@ -12,7 +12,7 @@ variable "instance_count" {
 
 To use the count syntax, simply assign the variable named `instance_count` to the `count` attribute.
 
-```
+```terraform
 resource "aws_instance" "app_server" {
   count = var.instance_count
   ami           = "ami-077ee47512dc6f3ca"
