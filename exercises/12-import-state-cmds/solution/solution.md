@@ -48,7 +48,7 @@ resource "aws_instance" "app_server" {
 
 Add the following configuration to `main.tf`. Do not define any additional resource arguments yet.
 
-```
+```terraform
 resource "aws_instance" "app_server" {
 }
 ```
