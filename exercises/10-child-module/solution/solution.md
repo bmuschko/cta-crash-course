@@ -51,3 +51,11 @@ module "app_server" {
   tags = { Name: "App Server" }
 }
 ```
+
+The `plan` commahd should succeed and plan a single EC2 instance.
+
+```
+$ terraform plan
+...
+Plan: 1 to add, 0 to change, 0 to destroy.
+```
