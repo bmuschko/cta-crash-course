@@ -38,3 +38,21 @@ $ terraform output
 │ command to assist.
 ╵
 ```
+
+The `apply` command will render the output value as it as been assigned at this point.
+
+```
+$ terraform apply
+...
+
+Outputs:
+
+app_server_public_ip = "34.211.146.45"
+```
+
+You can also retrieve the output value using the `output` command.
+
+```
+$ terraform output
+app_server_public_ip = "34.211.146.45"
+```
