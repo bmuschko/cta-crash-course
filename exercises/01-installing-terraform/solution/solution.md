@@ -8,7 +8,7 @@ Terraform v1.2.2
 on darwin_amd64
 ```
 
-The `-help` command line option renders the usage pattern of the executable. You will get the same output if you just run the `terrafrom` command.
+The `-help` and `-h` command line options render the usage pattern of the executable. You will get the same output if you just run the `terraform` command.
 
 ```
 $ terraform -help
@@ -51,3 +51,5 @@ Global options (use these before the subcommand, if any):
   -help         Show this help output, or the help for a specified subcommand.
   -version      An alias for the "version" subcommand.
 ```
+
+Congratulations! You are ready to use the Terraform CLI in the next exercises.
