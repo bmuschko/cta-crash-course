@@ -10,7 +10,7 @@ Define the local values.
 
 ```terraform
 locals {
-  timeouts {
+  timeouts = {
     create = "60m"
     delete = "2h"
   }
