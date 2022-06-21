@@ -1,6 +1,6 @@
 # Exercise 6
 
-In this exercise, you will define an output value for the public ID address of an EC2 instance.
+In this exercise, you will define an output value for the [public ID address of an EC2 instance](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance#attributes-reference).
 
 1. Inspect the existing configuration in the file named `main.tf`.
 2. Create a new configuration file named `outputs.tf` that we'll use to define output values.
