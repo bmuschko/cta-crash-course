@@ -8,7 +8,7 @@ $ terraform plan
 $ terraform apply
 ```
 
-Open a browser and enter the URL `https://aws.amazon.com/`. Log into your account. Navigate to _My Account > AWS Management Console_. Open the EC2 Dashboard. You should find the running EC2 instance you just created. Get the value for the column "Instance ID". For the purpose of explaining the import workflow, we'll use the instance ID `i-0651c2edd7dc884ac`.
+Open a browser and enter the URL [https://aws.amazon.com/](https://aws.amazon.com/). Log into your account. Navigate to _My Account > AWS Management Console_. Open the EC2 Dashboard. You should find the running EC2 instance you just created. Get the value for the column "Instance ID". For the purpose of explaining the import workflow, we'll use the instance ID `i-0651c2edd7dc884ac`.
 
 Remove the instance from the local state with the following command.
 
