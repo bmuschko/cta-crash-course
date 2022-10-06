@@ -1,10 +1,10 @@
 # Solution
 
-Follow the instructions on the Terraform page to install the binary. Verify that Terraform has been installed properly. As shown in the output below, Terraform 1.2.2 has been installed.
+Follow the instructions on the Terraform page to install the binary. Verify that Terraform has been installed properly. As shown in the output below, Terraform 1.3.1 has been installed.
 
 ```
 $ terraform version
-Terraform v1.2.2
+Terraform v1.3.1
 on darwin_amd64
 ```
 
