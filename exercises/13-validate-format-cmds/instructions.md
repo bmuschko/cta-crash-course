@@ -1,4 +1,4 @@
-# Exercise 12
+# Exercise 13
 
 In this exercise, you will fix and format existing configuration files using the relevant Terraform commands.
 

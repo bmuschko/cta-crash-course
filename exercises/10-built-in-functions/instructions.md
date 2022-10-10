@@ -1,4 +1,4 @@
-# Exercise 9
+# Exercise 10
 
 In this exercise, you will replace a `count`-style loop with a `for_each` loop. To feed in the data to the loop, you will need to transform the input value with built-in functions.
 

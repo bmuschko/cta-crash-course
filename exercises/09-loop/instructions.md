@@ -1,4 +1,4 @@
-# Exercise 8
+# Exercise 9
 
 In this exercise, you will define an input variable used for defining a loop using the `count` argument.
 
