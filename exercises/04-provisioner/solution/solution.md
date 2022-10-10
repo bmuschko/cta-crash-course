@@ -1,6 +1,6 @@
 # Solution
 
-Point to the shell script using the `user_data` attribute. To parse the contents of the file, use the `file` function.
+Point to the shell script using the `user_data` attribute. To parse the contents of the file, use the [`file` function](https://www.terraform.io/language/functions/file).
 
 ```terraform
 resource "aws_instance" "app_server" {
@@ -19,3 +19,9 @@ $ terraform apply
 You can find information about the executed shell script commands in the system log of the EC2 instance. Select the UI options _Actions > Instance settings > Edit user data_.
 
 ![AWS user_data](./imgs/aws-user-data.png)
+
+Delete the existing EC2 instance with the `destroy` command.
+
+```
+$ terraform destroy
+```
