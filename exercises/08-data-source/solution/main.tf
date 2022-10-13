@@ -1,8 +1,21 @@
+terraform {
+  required_providers {
+    http = {
+      source  = "hashicorp/http"
+      version = "3.1.0"
+    }
+  }
+}
+
+provider "http" {
+
+}
+
 data "http" "weather" {
   url = "https://api.weather.gov/points/39.73,-104.99"
 
   request_headers = {
-    "Accept" = "application/geo+json"
+    Accept = "application/geo+json"
   }
 }
 
