@@ -2,7 +2,7 @@
 
 HashiCorp Terraform is the leading open source automation tool for infrastructure as code (IaC) for building and deploying infrastructure to prominent cloud providers like AWS and Google Cloud. It is extremely valuable to DevOps engineers looking to standardize and simplify the way they define and manage their infrastructure resources. The Terraform Associate certification aims to validate your knowledge of the tool in the form of a multiple-choice exam. As a certified practitioner, you’ll demonstrate your proficiency in using Terraform for production environments including concepts, workflows, and syntax.
 
-Join expert Benjamin Muschko to dive into all the topics covered in the [exam curriculum](https://www.hashicorp.com/certification/terraform-associate), so you’ll be fully prepared to pass the test. You’ll also benefit from Ben’s personal experience with preparing for all aspects of the exam.
+Join expert and [Certified Terraform Associate](https://www.credly.com/badges/d571af1f-3557-4170-977f-84c0dd4d1c7a?source=linked_in_profile) Benjamin Muschko to dive into all the topics covered in the [exam curriculum](https://www.hashicorp.com/certification/terraform-associate), so you’ll be fully prepared to pass the test. You’ll also benefit from Ben’s personal experience with preparing for all aspects of the exam.
 
 ## Prerequisites
 
