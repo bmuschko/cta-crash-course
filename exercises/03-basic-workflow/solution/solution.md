@@ -69,7 +69,7 @@ Terraform will perform the following actions:
 
 You should be able to find the provisioned EC2 instance in the AWS dashboard.
 
-![ec2-instance](../imgs/ec2-instance.png)
+![ec2-instance](./imgs/ec2-instance.png)
 
 Delete the existing EC2 instance with the `destroy` command.
 

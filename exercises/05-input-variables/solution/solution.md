@@ -65,7 +65,7 @@ To automatically consume variables from a file, store them in `terraform.tfvars`
 
 ```terraform
 tags = {
-  "Environment": "Test",  
+  "Environment": "Test",
   "Service": "Example"
 }
 ```
