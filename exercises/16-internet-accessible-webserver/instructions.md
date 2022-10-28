@@ -3,7 +3,7 @@
 In this exercise, you will put everything you learned so far together. You'll create the infrastructure pieces that run the Apache web server on AWS. The web server should become accessible from the internet.
 
 1. Define the AWS provider with the latest version in the 4.x range.
-2.Create the following resources and tie them together properly.
+2. Create the following resources and tie them together properly.
   * A VPC using the [`aws_vpc`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc) resource. Configure the CIDR to `178.0.0.0/16`.
   * A VPC Internet Gateway using the [`aws_internet_gateway`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/internet_gateway) resource.
   * A VPC subnet resource using the [`aws_subnet`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet) resource. Set the availability zone to `us-west-2a` and map the public IP on launch.
