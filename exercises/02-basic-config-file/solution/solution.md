@@ -42,3 +42,12 @@ For testing purposes, set the environment variables for the current shell that d
 $ export AWS_ACCESS_KEY_ID=<access-key-id>
 $ export AWS_SECRET_ACCESS_KEY=<secret-access-key>
 ```
+
+Make sure the configuration file can be validated successfully. Run the `init` command to initialize the working directory first.
+
+```
+$ terraform init
+...
+$ terraform validate
+Success! The configuration is valid.
+```
