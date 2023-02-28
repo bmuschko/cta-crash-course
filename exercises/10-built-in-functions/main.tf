@@ -1,27 +1,15 @@
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "4.17.1"
-    }
-  }
+variable "cidr" {
+  type        = string
+  default     = "10.0.0.0/16"
+  description = "A network address prefix in CIDR notation"
 }
 
-provider "aws" {
-  region = "us-west-2"
+output "public_subnets" {
+  value       = local.public_subnets
+  description = "Computed public subnet CIDR blocks"
 }
 
-variable "instance_count" {
-    type = number
-    description = "The number of EC2 instances to be managed."
-    default = 3
-}
-
-resource "aws_instance" "app_server" {
-  count = var.instance_count
-  ami           = "ami-077ee47512dc6f3ca"
-  instance_type = "t2.nano"
-  tags = {
-    Name = "instance ${count.index}"
-  }
+output "private_subnets" {
+  value       = local.private_subnets
+  description = "Computed private subnet CIDR blocks"
 }

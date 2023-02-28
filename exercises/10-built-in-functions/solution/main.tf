@@ -1,38 +1,29 @@
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "4.17.1"
-    }
-  }
+variable "cidr" {
+  type        = string
+  default     = "10.0.0.0/16"
+  description = "A network address prefix in CIDR notation"
 }
 
-provider "aws" {
-  region = "us-west-2"
+locals {
+  private_subnets = [
+    cidrsubnet(var.cidr, 8, 1),
+    cidrsubnet(var.cidr, 8, 2),
+    cidrsubnet(var.cidr, 8, 3)
+  ]
+
+  public_subnets = [
+    cidrsubnet(var.cidr, 8, 4),
+    cidrsubnet(var.cidr, 8, 5),
+    cidrsubnet(var.cidr, 8, 6)
+  ]
 }
 
-variable "instance_count" {
-    type = number
-    description = "The number of EC2 instances to be managed."
-    default = 3
+output "public_subnets" {
+  value       = local.public_subnets
+  description = "Computed public subnet CIDR blocks"
 }
 
-# Count syntax
-/*resource "aws_instance" "app_server" {
-  count = var.instance_count
-  ami           = "ami-077ee47512dc6f3ca"
-  instance_type = "t2.nano"
-  tags = {
-    Name = "instance ${count.index}"
-  }
-}*/
-
-# For each syntax
-resource "aws_instance" "app_server" {
-  for_each = toset([for i in range(0, var.instance_count) : tostring(i + 1)])
-  ami           = "ami-077ee47512dc6f3ca"
-  instance_type = "t2.nano"
-  tags = {
-      Name = "instance ${each.key}"
-  }
+output "private_subnets" {
+  value       = local.private_subnets
+  description = "Computed private subnet CIDR blocks"
 }

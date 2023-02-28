@@ -1,8 +1,8 @@
 # Exercise 10
 
-In this exercise, you will replace a `count`-style loop with a `for_each` loop. To feed in the data to the loop, you will need to transform the input value with built-in functions.
+In this exercise, you will create public and private subnets from a CIDR block without hard-coding the values. Instead you will use the [`cidrsubnet`](https://developer.hashicorp.com/terraform/language/functions/cidrsubnet) function to create network spaces programmatically.
 
 1. Inspect the existing configuration in the file named [`main.tf`](./main.tf).
-2. Turn the `count` argument used by the `aws_instance` into a `for_each` argument with the data type `set`.
-3. You will need to massage the value of the `instance_count` input variable so that it can be assigned. Have a look at the built-in functions [range](https://developer.hashicorp.com/terraform/language/functions/range), [tostring](https://developer.hashicorp.com/terraform/language/functions/tostring), and [toset](https://developer.hashicorp.com/terraform/language/functions/toset) for inspiration. Be aware that other solutions may work as well.
-4. Execute the `plan` command.
+2. Create a local variable named `private_subnets`. Use the `cidrsubnet` function to compute 3 new subnet addresses within given IP network address prefix. Use the input variable `cidr` as a starting point, add 8 as the number of additional bits, and start with 1 as the whole number that can be represented as a binary integer.
+2. Create a local variable named `public_subnets`. Use the `cidrsubnet` function to compute 3 new subnet addresses within given IP network address prefix. Use the input variable `cidr` as a starting point, add 8 as the number of additional bits, and start with 4 as the whole number that can be represented as a binary integer.
+4. Execute the `plan` command. What CIDRs do you expect to be generated?
