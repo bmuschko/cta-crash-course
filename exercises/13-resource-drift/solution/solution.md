@@ -68,7 +68,7 @@ aws_instance.app_server: Refreshing state... [id=i-0b7c0e5c308a5842f]
 
 No changes. Your infrastructure matches the configuration.
 
-$terraform apply
+$ terraform apply
 aws_instance.app_server: Refreshing state... [id=i-0b7c0e5c308a5842f]
 
 No changes. Your infrastructure matches the configuration.
