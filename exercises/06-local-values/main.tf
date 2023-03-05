@@ -11,7 +11,7 @@ provider "aws" {
   region = "us-west-2"
 }
 
-resource "aws_db_instance" "default" {
+resource "aws_db_instance" "mysql" {
   allocated_storage    = 10
   engine               = "mysql"
   engine_version       = "5.7"
@@ -21,4 +21,15 @@ resource "aws_db_instance" "default" {
   password             = "foobarbaz"
   parameter_group_name = "default.mysql5.7"
   skip_final_snapshot  = true
+}
+
+resource "aws_db_instance" "postgres" {
+  allocated_storage    = 256
+  engine               = "postgres"
+  engine_version       = "9.5.4"
+  instance_class       = "db.r3.large"
+  db_name              = "data-dump"
+  username             = "user1"
+  password             = "passwd"
+  parameter_group_name = "mydb"
 }
