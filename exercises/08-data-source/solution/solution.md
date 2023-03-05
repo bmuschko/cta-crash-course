@@ -6,6 +6,19 @@ Create the file named `main.tf`.
 $ touch main.tf
 ```
 
+Add the provider with the version 3.2.1.
+
+```terraform
+terraform {
+  required_providers {
+    http = {
+      source = "hashicorp/http"
+      version = "3.2.1"
+    }
+  }
+}
+```
+
 Define the data source. Assign the URL and the request header.
 
 ```terraform
