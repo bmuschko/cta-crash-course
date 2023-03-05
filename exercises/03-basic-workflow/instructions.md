@@ -1,6 +1,6 @@
 # Exercise 3
 
-In this exercise, you will practice a basic workflow with the help of a configuration file.
+In this exercise, you will practice a basic workflow with the help of the existing configuration in the file named [`main.tf`](./main.tf).
 
 1. Run the Terraform command for initializing the working directory.
 2. Run the Terraform command for validating the configuration file.
