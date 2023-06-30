@@ -6,14 +6,14 @@ Create the file named `main.tf`.
 $ touch main.tf
 ```
 
-Add the provider with the version 3.2.1.
+Add the provider with the version 3.4.0.
 
 ```terraform
 terraform {
   required_providers {
     http = {
       source = "hashicorp/http"
-      version = "3.2.1"
+      version = "3.4.0"
     }
   }
 }
@@ -51,14 +51,5 @@ Changes to Outputs:
 
 You can apply this plan to save these new output values to the Terraform state, without changing any
 real infrastructure.
-╷
-│ Warning: Content-Type is not recognized as a text type, got "application/geo+json"
-│
-│   with data.http.weather,
-│   on main.tf line 1, in data "http" "weather":
-│    1: data "http" "weather" {
-│
-│ If the content is binary data, Terraform may not properly handle the contents of the response.
-╵
 ```
 
