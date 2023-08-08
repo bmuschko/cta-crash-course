@@ -58,15 +58,15 @@ var.tags
 The following command shows the use of the `-var` option for the `tags` variable.
 
 ```
-$ terraform plan -var='tags={"Environment": "Test", "Service": "Example"}'
+$ terraform plan -var='tags={Environment = "Test", Service = "Example"}'
 ```
 
 To automatically consume variables from a file, store them in `terraform.tfvars`.
 
 ```terraform
 tags = {
-  "Environment": "Test",
-  "Service": "Example"
+  Environment = "Test",
+  Service = "Example"
 }
 ```
 
