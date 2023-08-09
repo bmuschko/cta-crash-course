@@ -45,7 +45,7 @@ $ terraform plan
 var.tags
   The tags assigned to the EC2 instance.
 
-  Enter a value: {"Service": "hello"}
+  Enter a value: {Service = "hello"}
   ...
   # aws_instance.app_server will be created
     + resource "aws_instance" "app_server" {
@@ -71,7 +71,7 @@ $ terraform plan
 var.tags
   The tags assigned to the EC2 instance.
 
-  Enter a value: {"Service": "hello"}
+  Enter a value: {Service = "hello"}
   ...
   # aws_instance.app_server will be created
     + resource "aws_instance" "app_server" {
