@@ -20,6 +20,6 @@ All [exercises](./exercises) are numbered and live in dedicated directories star
 * 🎞️ [A Cloud Guru: HashiCorp Certified Terraform Associate](https://acloudguru.com/course/hashicorp-certified-terraform-associate)
 * 🎞️ [Pluralsight: HashiCorp Certified: Terraform Associate Learning Path](https://www.pluralsight.com/paths/hashicorp-certified-terraform-associate)
 * 🧪 [Pearson: HashiCorp Terraform Associate](https://learning.oreilly.com/certifications/9780138190408/)
-* 🧪 [Udemy: HashiCorp Certified: Terraform Associate Practice Exam 2023](https://www.udemy.com/course/terraform-associate-practice-exam)
+* 🧪 [Udemy: HashiCorp Certified: Terraform Associate Practice Exam](https://www.udemy.com/course/terraform-associate-practice-exam)
 * 🧪 [Whizlabs: HashiCorp Certified Terraform Associate Certification](https://www.whizlabs.com/hashicorp-certified-terraform-associate/)
 * 🧪 [BrainCert: Hashicorp Certified Terraform Associate Practice Exams](https://prepcatalyst.braincert.com/lms/course/27706-Hashicorp-Certified-Terraform-Associate-Practice-Exams)
