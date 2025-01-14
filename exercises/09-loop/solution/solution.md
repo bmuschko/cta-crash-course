@@ -4,9 +4,9 @@ Start by defining the input variable named `instance_count`.
 
 ```terraform
 variable "instance_count" {
-    type = number
-    description = "The number of EC2 instances to be managed."
-    default = 3
+  type = number
+  description = "The number of EC2 instances to be managed."
+  default = 3
 }
 ```
 
