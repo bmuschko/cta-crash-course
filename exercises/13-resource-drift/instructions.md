@@ -1,6 +1,6 @@
 # Exercise 13
 
-In this exercise, you will manage resource drift that can occur if a resource under Terraform's control has been changed manually in cloud.
+In this exercise, you will manage resource drift that can occur if a resource under Terraform's control has been changed manually in the cloud environment.
 
 1. In the current directory, run the `init` and `apply` command to create the resources need to set up the scenario.
 2. Open the AWS dashboard and find the created resource.
