@@ -1,4 +1,4 @@
-# Exercise 12
+# Exercise 11
 
 In this exercise, you will create two new workspaces. Each workspace will use different input values. You will learn to switch between the workspaces to plan the changes.
 

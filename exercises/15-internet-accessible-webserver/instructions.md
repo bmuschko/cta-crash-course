@@ -1,4 +1,4 @@
-# Exercise 16
+# Exercise 15
 
 In this exercise, you will put everything you learned so far together. You'll create the infrastructure pieces that run the Apache web server on AWS. The web server should become accessible from the internet.
 

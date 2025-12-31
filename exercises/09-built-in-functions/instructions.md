@@ -1,4 +1,4 @@
-# Exercise 10
+# Exercise 9
 
 In this exercise, you will create public and private subnets from a CIDR block without hard-coding the values. Instead you will use the [`cidrsubnet`](https://developer.hashicorp.com/terraform/language/functions/cidrsubnet) function to create network spaces programmatically.
 
