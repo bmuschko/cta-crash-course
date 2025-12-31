@@ -31,7 +31,7 @@ data "http" "weather" {
 }
 ```
 
-Define an output value that consumes the response body provided by the data source. You can navigate the JSON structure by path. Make sure the decode the JSON content using the `jsondecode` function.
+Define an output value that consumes the response body provided by the data source. You can navigate the JSON structure by path. Make sure to decode the JSON content using the `jsondecode` function.
 
 ```terraform
 output "city" {

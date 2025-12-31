@@ -39,7 +39,7 @@ $ terraform output
 ╵
 ```
 
-The `apply` command will render the output value as it as been assigned at this point.
+The `apply` command will render the output value as it has been assigned at this point.
 
 ```
 $ terraform apply

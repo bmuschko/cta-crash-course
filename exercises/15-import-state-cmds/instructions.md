@@ -1,6 +1,6 @@
 # Exercise 15
 
-In this exercise, you will use the `import` command to bring a EC2 server under Terraform's management.
+In this exercise, you will use the `import` command to bring an EC2 server under Terraform's management.
 
 1. Create the EC2 instance by running the relevant commands for the existing configuration in the current directory.
 2. Identify the resource ID of the EC2 instance in the AWS dashboard.

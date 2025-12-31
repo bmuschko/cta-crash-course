@@ -52,7 +52,7 @@ module "app_server" {
 }
 ```
 
-The `plan` commahd should succeed and plan a single EC2 instance.
+The `plan` command should succeed and plan a single EC2 instance.
 
 ```
 $ terraform plan

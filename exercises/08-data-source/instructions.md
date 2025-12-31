@@ -1,6 +1,6 @@
 # Exercise 8
 
-In this exercise, you will define a data source for consuming a response from a HTTP call. The response should be parsed and used as an output value.
+In this exercise, you will define a data source for consuming a response from an HTTP call. The response should be parsed and used as an output value.
 
 1. Create a new configuration file named `main.tf`.
 2. Define a data source named `weather` using the [hashicorp/http](https://registry.terraform.io/providers/hashicorp/http/latest) provider with version 3.4.0.

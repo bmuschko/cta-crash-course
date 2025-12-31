@@ -119,7 +119,7 @@ resource "aws_instance" "app_server" {
 }
 ```
 
-The `plan` command will be satisified with the current state.
+The `plan` command will be satisfied with the current state.
 
 ```
 $ terraform plan

@@ -38,7 +38,7 @@ $ terraform validate
 │ An argument named "val" is not expected here. Did you mean "value"?
 ```
 
-Fix the first error message by moving the opening curly brace of the AWS provider to the same line as the defintion. The resulting code will look as follows.
+Fix the first error message by moving the opening curly brace of the AWS provider to the same line as the definition. The resulting code will look as follows.
 
 ```terraform
 provider "aws" {
@@ -55,7 +55,7 @@ output "app_server_public_ip" {
 }
 ```
 
-Another issue may see is the following:
+Another issue you may see is the following:
 
 ```
 $ terraform validate
