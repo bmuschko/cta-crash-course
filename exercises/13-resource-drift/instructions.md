@@ -1,4 +1,4 @@
-# Exercise 12
+# Exercise 13
 
 In this exercise, you will manage resource drift that can occur if a resource under Terraform's control has been changed manually in the cloud environment.
 

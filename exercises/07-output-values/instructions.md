@@ -1,4 +1,4 @@
-# Exercise 6
+# Exercise 7
 
 In this exercise, you will define an output value for the [public IP address of an EC2 instance](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance#public_ip).
 

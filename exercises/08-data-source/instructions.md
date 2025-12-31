@@ -1,4 +1,4 @@
-# Exercise 7
+# Exercise 8
 
 In this exercise, you will define a data source for consuming a response from a HTTP call. The response should be parsed and used as an output value.
 

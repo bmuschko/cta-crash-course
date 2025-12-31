@@ -1,4 +1,4 @@
-# Exercise 5
+# Exercise 6
 
 In this exercise, you will define local values in the configuration as a means to provide default values.
 

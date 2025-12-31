@@ -1,4 +1,4 @@
-# Exercise 14
+# Exercise 15
 
 In this exercise, you will use the `import` command to bring a EC2 server under Terraform's management.
 
