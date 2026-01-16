@@ -19,6 +19,6 @@ All [exercises](./exercises) are numbered and live in dedicated directories star
 * 🎞️ [YouTube: HashiCorp Terraform Associate Certification Course - Pass the Exam!](https://www.youtube.com/watch?v=V4waklkBC38)
 * 🎞️ [Pluralsight: HashiCorp Certified: Terraform Associate Learning Path](https://www.pluralsight.com/paths/hashicorp-certified-terraform-associate)
 * 🧪 [Pearson: HashiCorp Terraform Associate](https://learning.oreilly.com/certifications/9780138190408/)
-* 🧪 [Udemy: HashiCorp Certified: Terraform Associate Practice Exam](https://www.udemy.com/course/terraform-associate-practice-exam)
+* 🧪 [Udemy: HashiCorp Certified Terraform Associate 004 - Practice Exams](https://www.udemy.com/course/terraform-associate-004-practice-exams)
 * 🧪 [Whizlabs: HashiCorp Certified Terraform Associate Certification](https://www.whizlabs.com/hashicorp-certified-terraform-associate/)
 * 🧪 [BrainCert: Hashicorp Certified Terraform Associate Practice Exams](https://prepcatalyst.braincert.com/course/Hashicorp-Certified-Terraform-Associate-Practice-Exams)
