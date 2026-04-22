@@ -64,7 +64,7 @@ resource "aws_db_instance" "main" {
   instance_class    = "db.t3.micro"
   allocated_storage = 20
 
-  username            = "admin"
+  username            = "db_admin"
   password_wo         = ephemeral.random_password.db.result
   password_wo_version = 1
 
