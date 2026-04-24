@@ -10,7 +10,7 @@ All exercises in this repository practice a self-contained portion of the [CTA c
 
 ## Exercises
 
-All [exercises](./exercises) are numbered and live in dedicated directories starting with the name `exercise-`. You'll find instructions for each exercise in each folder. Solutions are available in the `solution` folder. Try to solve each exercise yourself before having a look at the solution.
+All [exercises](./exercises) are numbered and live in dedicated directories starting with a number prefix. You'll find instructions for each exercise in each folder. Solutions are available in the `solution` folder. Try to solve each exercise yourself before having a look at the solution.
 
 ## Additional Resources
 

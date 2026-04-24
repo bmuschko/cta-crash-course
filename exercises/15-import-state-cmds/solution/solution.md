@@ -27,7 +27,7 @@ resource "aws_instance" "app_server" {
 }
 ```
 
-The state should render empty output now that you remove the EC2 instance.
+The state should render empty output now that you removed the EC2 instance.
 
 ```
 $ terraform show

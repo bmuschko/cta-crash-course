@@ -14,7 +14,7 @@ Outputs:
 web_instance_ip = "34.209.48.125"
 ```
 
-You should be able to access the Apache web server after the a couple of seconds. In the output above, the public IP address is `34.209.48.125`.
+You should be able to access the Apache web server after a couple of seconds. In the output above, the public IP address is `34.209.48.125`.
 
 ![apache-default-page](./imgs/apache-default-page.png)
 

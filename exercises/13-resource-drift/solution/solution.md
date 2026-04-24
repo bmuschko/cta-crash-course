@@ -45,7 +45,7 @@ Terraform will perform the following actions:
 Plan: 0 to add, 1 to change, 0 to destroy.
 ```
 
-If you were to run `apply` as-is, then the operation would remove the tags of the EC2 instance in AWS as the Terraform configuration files doesn't declare them.
+If you were to run `apply` as-is, then the operation would remove the tags of the EC2 instance in AWS as the Terraform configuration file doesn't declare them.
 
 Add the tags to the EC2 resource definition in `main.tf` to reflect the actual state in the cloud. It could look as follows:
 
